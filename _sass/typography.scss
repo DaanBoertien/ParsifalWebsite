@@ -1,0 +1,61 @@
+@import url(https://db.onlinewebfonts.com/c/05289e866fe7e1e99d27a7a31f8d3b66?family=Trattatello);
+
+@font-face {
+  font-family: "Trattatello";
+  src: url("https://db.onlinewebfonts.com/t/05289e866fe7e1e99d27a7a31f8d3b66.eot");
+  src: url("https://db.onlinewebfonts.com/t/05289e866fe7e1e99d27a7a31f8d3b66.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/05289e866fe7e1e99d27a7a31f8d3b66.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/05289e866fe7e1e99d27a7a31f8d3b66.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/05289e866fe7e1e99d27a7a31f8d3b66.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/05289e866fe7e1e99d27a7a31f8d3b66.svg#Trattatello")
+      format("svg");
+}
+
+body {
+  font-family: "Merriweather";
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+.button {
+  font-family: "Trattatello";
+  opacity: 0;
+}
+p {
+  opacity: 0;
+}
+
+h2 {
+  color: var(--clr-primary);
+  font-size: 2em;
+  position: relative;
+}
+
+.underline {
+  display: inline-block;
+}
+
+h2.underline::after {
+  position: absolute;
+  content: "";
+  left: -1%;
+  right: -2%;
+  bottom: 24%;
+  height: 15%;
+  background: rgb(205, 229, 233);
+  z-index: -1;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.info-subtitle {
+  color: var(--clr-secondary);
+}
