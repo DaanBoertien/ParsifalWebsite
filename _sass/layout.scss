@@ -103,10 +103,13 @@ p {
   color: var(--clr-secondary);
 }
 
-//check git
-
 .church-container {
   opacity: 0;
+}
+
+.visible {
+  //   opacity: 1;
+  position: relative;
 }
 
 .church {

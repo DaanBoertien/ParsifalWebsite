@@ -62,6 +62,8 @@ p { margin-bottom: 1em; }
 
 .church-container { opacity: 0; }
 
+.visible { position: relative; }
+
 .church { color: var(--clr-secondary); transition: color 0.3s ease-out; }
 
 .church:hover { color: var(--clr-primary); }
