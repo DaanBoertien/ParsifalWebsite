@@ -9,10 +9,15 @@ body {
 }
 
 h1,
+.landing-subtitle {
+  font-family: "Trattatello";
+  opacity: 0;
+}
 h2,
 h3,
 .button {
-  font-family: "Trattatello";
+  font-family: "Merriweather";
+  font-weight: 300;
   opacity: 0;
 }
 p {
