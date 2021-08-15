@@ -30,22 +30,24 @@ h2 {
   color: var(--clr-primary);
   font-size: 2em;
   position: relative;
+  margin-top: 0.3em;
+  margin-bottom: -0.5em;
 }
 
 .underline {
   display: inline-block;
 }
 
-h2.underline::after {
-  position: absolute;
-  content: "";
-  left: -1%;
-  right: -2%;
-  bottom: 24%;
-  height: 15%;
-  background: rgb(205, 229, 233);
-  z-index: -1;
-}
+// h2.underline::after {
+//   position: absolute;
+//   content: "";
+//   left: -1%;
+//   right: -2%;
+//   bottom: 10px;
+//   height: 15%;
+//   background: rgb(205, 229, 233);
+//   z-index: -1;
+// }
 
 p {
   color: rgba(0, 0, 0, 0.9);
@@ -53,4 +55,16 @@ p {
 
 .info-subtitle {
   color: var(--clr-secondary);
+}
+
+.date {
+  text-transform: uppercase;
+  color: var(--clr-secondary);
+  margin-bottom: 0;
+  font-size: 1.2em;
+}
+
+.place {
+  color: var(--clr-primary);
+  margin-bottom: 2em;
 }

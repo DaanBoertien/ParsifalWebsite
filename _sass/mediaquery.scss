@@ -22,13 +22,23 @@
   .musicians,
   .agenda {
     display: flex;
-    gap: 2em;
-    flex-wrap: wrap;
+    // gap: 2em;
+    // flex-wrap: wrap;
     margin-bottom: 2em;
   }
-  .artists-content,
-  .dates-card {
-    flex: 1 0 35%;
+
+  .musicians > * + *,
+  .agenda > * + * {
+    margin-left: 2em;
+  }
+  // .artists-content,
+  // .dates-card {
+  //   flex: 1 0 35%;
+  // }
+
+  .dates-card,
+  .artists-content {
+    flex: 1 1 0;
   }
 
   .artists-content img {
@@ -84,14 +94,18 @@
   .fadeIn {
     transform: translateY(20px);
   }
-}
 
-@media (min-width: 1000px) {
-  .artists-content {
-    flex: 1 0 28%;
+  .logos {
+    flex-direction: row;
   }
 
-  .musicians {
-    margin-bottom: 4em;
+  .logos > * + * {
+    margin-left: 1em;
+  }
+
+  .logo {
+    padding: 1em;
+    display: flex;
+    align-items: center;
   }
 }
