@@ -20,6 +20,10 @@ p { color: rgba(0, 0, 0, 0.9); }
 
 .place { color: var(--clr-primary); margin-bottom: 2em; }
 
+.homepage-link { color: var(--clr-secondary); transition: filter 0.3s ease-out; }
+
+.homepage-link:hover { filter: brightness(2); }
+
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }

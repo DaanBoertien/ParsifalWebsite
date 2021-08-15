@@ -67,3 +67,12 @@ p {
   color: var(--clr-primary);
   margin-bottom: 2em;
 }
+
+.homepage-link {
+  color: var(--clr-secondary);
+  transition: filter 0.3s ease-out;
+}
+
+.homepage-link:hover {
+  filter: brightness(2);
+}
