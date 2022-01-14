@@ -157,3 +157,12 @@ p {
   position: absolute;
   opacity: 0;
 }
+
+.margin-top {
+  margin-top: 2em;
+}
+
+.photo + .photo {
+  margin-top: 2em;
+  opacity: 0;
+}

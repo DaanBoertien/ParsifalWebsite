@@ -56,6 +56,21 @@ p {
   color: var(--clr-secondary);
 }
 
+.navlink {
+  color: var(--clr-secondary);
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: filter 0.2s ease-out;
+}
+
+.navlink:hover {
+  filter: brightness(200%);
+}
+
+.navlink + .navlink {
+  margin-left: 1em;
+}
+
 .date {
   text-transform: uppercase;
   color: var(--clr-secondary);
