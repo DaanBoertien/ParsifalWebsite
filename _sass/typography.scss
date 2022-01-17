@@ -58,7 +58,7 @@ p {
 
 .navlink {
   color: var(--clr-secondary);
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-decoration: none;
   transition: filter 0.2s ease-out;
 }
@@ -68,7 +68,7 @@ p {
 }
 
 .navlink + .navlink {
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 
 .date {
