@@ -16,11 +16,11 @@ p { color: rgba(0, 0, 0, 0.9); }
 
 .info-subtitle { color: var(--clr-secondary); }
 
-.navlink { color: var(--clr-secondary); font-size: 1.5em; text-decoration: none; transition: filter 0.2s ease-out; }
+.navlink { color: var(--clr-secondary); font-size: 1.4em; text-decoration: none; transition: filter 0.2s ease-out; }
 
 .navlink:hover { filter: brightness(200%); }
 
-.navlink + .navlink { margin-left: 1em; }
+.navlink + .navlink { margin-left: 0.5em; }
 
 .date { text-transform: uppercase; color: var(--clr-secondary); margin-bottom: 0; font-size: 1.2em; }
 
