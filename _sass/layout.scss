@@ -166,3 +166,19 @@ p {
   margin-top: 2em;
   opacity: 0;
 }
+
+.double {
+  position: relative;
+}
+
+.double::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: red;
+  z-index: 10;
+  
+}
