@@ -100,6 +100,8 @@ p { margin-bottom: 1em; }
 
 .double::after { position: absolute; content: ''; left: 0; right: 0; top: 0; bottom: 0; background: red; z-index: 10; }
 
+#DE { color: var(--clr-primary); }
+
 @media (min-width: 768px) { .landing-title { font-size: 8em; letter-spacing: 4px; margin-bottom: 0.5em; } .landing-subtitle { font-size: 5em; letter-spacing: 2px; } .info-subtitle { font-size: 4em; } h2 { font-size: 3em; margin-bottom: 0.75em; } .musicians, .agenda { display: flex; margin-bottom: 2em; } .musicians { margin-bottom: 4em; } .musicians > * + *, .agenda > * + * { margin-left: 2em; } .dates-card, .artists-content { flex: 1 1 0; } .artists-content img { height: 95%; object-fit: cover; } .dates-card { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; } .church-container { position: relative; overflow: hidden; margin-bottom: 2em; } .invisible { opacity: 0; background: rgba(0, 0, 0, 0.5); outline: 10em solid rgba(0, 0, 0, 0.5); overflow: hidden; position: absolute; transition: opacity 0.5s ease-out; font-family: "Trattatello"; left: 0; right: 0; bottom: 0; top: 0; display: flex; justify-content: center; align-items: center; margin: 0; font-size: 4em; } .church { color: white; text-decoration: none; } .church:hover { color: #bebebe; } .church-container:hover .musician { opacity: 1; } .fadeIn { transform: translateY(20px); } .logos { flex-direction: row; } .logos > * + * { margin-left: 1em; } .logo { padding: 1em; display: flex; align-items: center; } }
 
 /*# sourceMappingURL=styles.css.map */
